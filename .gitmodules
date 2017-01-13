@@ -1,0 +1,24 @@
+[submodule "base"]
+	path = base
+	url = https://lolive@github.com/lolive/shinyshell-base.git
+[submodule "bash"]
+	path = bash
+	url = https://lolive@github.com/lolive/shinyshell-bash.git
+[submodule "elasticsearch"]
+	path = elasticsearch
+	url = https://lolive@github.com/lolive/shinyshell-elasticsearch.git
+[submodule "github"]
+	path = github
+	url = https://lolive@github.com/lolive/shinyshell-github.git
+[submodule "help"]
+	path = help
+	url = https://lolive@github.com/lolive/shinyshell-help.git
+[submodule "sed"]
+	path = sed
+	url = https://lolive@github.com/lolive/shinyshell-sed.git
+[submodule "web"]
+	path = web
+	url = https://lolive@github.com/lolive/shinyshell-web.git
+[submodule ".raw"]
+	path = .raw
+	url = https://github.com/lolive/shinyshell-raw
