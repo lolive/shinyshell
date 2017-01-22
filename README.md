@@ -1,4 +1,18 @@
-Do this:
-git clone --recursive https://github.com/lolive/shinyshell .shinyshell
-echo 'source $HOME/.shinyshell/.bashrc' >> $HOME/.bashrc
-source $HOME/.shinyshell/.bashrc
+This project provides a few Bash commands that you might find useful.
+
+We rely upon a bunch of Bash packages also available on Github. (see below).
+
+$ base  : ""
+
+$ bash  : ""
+
+$ elasticsearch  : ""
+
+$ github  : ""
+
+$ help  : ""
+
+$ sed  : ""
+
+$ web  : ""
+
