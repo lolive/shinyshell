@@ -3,23 +3,23 @@ This project provides a few Bash commands that you might find useful.
 We rely upon a bunch of Bash packages also available on Github. (see below).
 
 *** base: 
-(bd edit_function edit_readme ef go_to_bd html2txt list_aliases list_functions list_functions_with_details list_packages lsa lsf markdown readme_package sb source_bashrc tcpkill )
+( [bd](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/bd.helpfile) [edit_function](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/edit_function.helpfile) [edit_readme](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/edit_readme.helpfile) [ef](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/ef.helpfile) [go_to_bd](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/go_to_bd.helpfile) [html2txt](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/html2txt.helpfile) [list_aliases](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/list_aliases.helpfile) [list_functions](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/list_functions.helpfile) [list_functions_with_details](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/list_functions_with_details.helpfile) [list_packages](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/list_packages.helpfile) [lsa](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/lsa.helpfile) [lsf](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/lsf.helpfile) [markdown](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/markdown.helpfile) [readme_package](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/readme_package.helpfile) [sb](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/sb.helpfile) [source_bashrc](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/source_bashrc.helpfile) [tcpkill](https://raw.githubusercontent.com/lolive/shinyshell-base/master/.help/tcpkill.helpfile)  )
 
 *** bash: 
-(mute_popd mute_pushd )
+( [mute_popd](https://raw.githubusercontent.com/lolive/shinyshell-bash/master/.help/mute_popd.helpfile) [mute_pushd](https://raw.githubusercontent.com/lolive/shinyshell-bash/master/.help/mute_pushd.helpfile)  )
 
 *** elasticsearch: 
-(es_curl install_es list_es_indices sample_es_data set_all_indices set_all_types set_es_dir set_es_host set_es_index set_es_type start_es stop_es )
+( [es_curl](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/es_curl.helpfile) [install_es](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/install_es.helpfile) [list_es_indices](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/list_es_indices.helpfile) [sample_es_data](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/sample_es_data.helpfile) [set_all_indices](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/set_all_indices.helpfile) [set_all_types](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/set_all_types.helpfile) [set_es_dir](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/set_es_dir.helpfile) [set_es_host](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/set_es_host.helpfile) [set_es_index](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/set_es_index.helpfile) [set_es_type](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/set_es_type.helpfile) [start_es](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/start_es.helpfile) [stop_es](https://raw.githubusercontent.com/lolive/shinyshell-elasticsearch/master/.help/stop_es.helpfile)  )
 
 *** github: 
-(deleterepo listrepos newrepo push_package push_packages set_github_user set_remote_github view_remote_github )
+( [deleterepo](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/deleterepo.helpfile) [listrepos](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/listrepos.helpfile) [newrepo](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/newrepo.helpfile) [push_package](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/push_package.helpfile) [push_packages](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/push_packages.helpfile) [set_github_user](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/set_github_user.helpfile) [set_remote_github](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/set_remote_github.helpfile) [view_remote_github](https://raw.githubusercontent.com/lolive/shinyshell-github/master/.help/view_remote_github.helpfile)  )
 
 *** help: 
-(edit_help edit_shinyshell_readme regenerate_shinyshell_readme view_help )
+( [edit_help](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/edit_help.helpfile) [edit_shinyshell_readme](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/edit_shinyshell_readme.helpfile) [regenerate_shinyshell_readme](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/regenerate_shinyshell_readme.helpfile) [view_help](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/view_help.helpfile)  )
 
 *** sed: 
-(search_and_replace str_delete )
+( [search_and_replace](https://raw.githubusercontent.com/lolive/shinyshell-sed/master/.help/search_and_replace.helpfile) [str_delete](https://raw.githubusercontent.com/lolive/shinyshell-sed/master/.help/str_delete.helpfile)  )
 
 *** web: 
-(urldecode urlencode )
+( [urldecode](https://raw.githubusercontent.com/lolive/shinyshell-web/master/.help/urldecode.helpfile) [urlencode](https://raw.githubusercontent.com/lolive/shinyshell-web/master/.help/urlencode.helpfile)  )
 
