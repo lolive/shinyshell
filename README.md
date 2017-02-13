@@ -1,6 +1,7 @@
 This project provides a few Bash commands that you might find useful.
 
 We rely upon a bunch of Bash packages also available on Github. (see below).
+
 *** base: 
 (base bd edit_function edit_readme ef go_to_bd html2txt list_aliases list_functions list_functions_with_details list_packages lsa lsf markdown readme_package sb source_bashrc tcpkill )
 
