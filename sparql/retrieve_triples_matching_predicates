@@ -1,0 +1,10 @@
+name_params ENDPOINT PREDICATE PREDICATEE EXTENSION _NAMEDGRAPH
+local LIMIT=10000;
+local OFFSET=0;
+local NEW=1;
+while [[ $NEW -gt 0 ]];
+do
+  NEW=`send_sparql_select $ENDPOINT "SELECT ?g ?s ?o ?o2 WHERE {  graph ?g {?s <$PREDICATE> ?o . ?s <$PREDICATEE> ?o2}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's@\(.*\)‾\(.*\)‾\(.*\)‾\(.*\)@'"$ENDPOINT"'‾\1‾\2‾'"$PREDICATE"'‾\3‾'"$PREDICATEE"'‾\4@'|tee /dev/tty |wc -l`;  
+  OFFSET=$(( OFFSET + NEW ));
+done ;
+
