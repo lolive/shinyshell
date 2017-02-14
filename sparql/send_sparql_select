@@ -2,7 +2,7 @@ name_params ENDPOINT SPARQL_QUERY
 local T_SELECT=`urlencode "${SPARQL_QUERY}"`;
 local T_REST="${ENDPOINT}?query=${T_SELECT}";  
 local XSLT_LOCATION=${BD}/sparql/.data/sparql.xsl
-wget --header='Accept: application/sparql-results+xml' -t 1 -T 45 -q -O - "$T_REST" | xsltproc ${XSLT_LOCATION} - | grep --color=auto --color=auto -v '^$'|tail -n +2 ;
+wget --header='Accept: application/sparql-results+xml' -t 1 -T 15 -q -O - "$T_REST" | xsltproc ${XSLT_LOCATION} - | grep --color=auto --color=auto -v '^$'|tail -n +2 ;
 local T=(${PIPESTATUS[*]});
 if [[ ${T[0]} != 0 ]]; then
  echo "Wget failed with status ${T[0]} for url $T_REST" 1>&2;

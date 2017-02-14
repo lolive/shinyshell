@@ -1,0 +1,1 @@
+all_endpoints |xargs -I{} -n1 -P100 bash -c 'sparqlping {}'

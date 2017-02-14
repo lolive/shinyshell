@@ -1,0 +1,7 @@
+name_params ENDPOINT 
+local SPARQL_QUERY='select ?s ?p ?o where { ?s ?p ?o} LIMIT 1';
+local NBRESULTS=`send_sparql_select  2> /dev/null| wc -l`
+if [ $NBRESULTS != 0 ]; then
+ echo $ENDPOINT
+fi
+

@@ -1,0 +1,1 @@
+wget -O - http://sparqles.okfn.org/availability 2>/dev/null | sed -e 's/</\n</g' -e 's/>/>\n/g' |grep '"/endpoint' | sed -e 's#.*uri=\([^"]*\)">#\1#' |urldecode 
