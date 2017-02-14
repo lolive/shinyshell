@@ -4,19 +4,19 @@ local LIMIT=10000;
 local NEW=1;
 local OFFSET=0;
 while [[ $NEW -gt 0 ]]; do 
- echo $NEW >&2
+ echo $OFFSET >&4
  if [ -z "${NAMEDGRAPH+x}" ]; then
   #NAMEDGRAPH IS NOT SET (==we want all graphs except default)
  # echo 1;
-  NEW=`send_sparql_select $ENDPOINT "SELECT ?g ?s ?o WHERE {  graph ?g {?s <$PREDICATE> ?o}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's_\(.*\)‾\(.*\)‾\(.*\)_'"$ENDPOINT"'‾\1‾\2‾'"$EXTENSION"'‾\3_'|tee /dev/fd/5|wc -l`;
+  NEW=`send_sparql_select "SELECT ?g ?s ?o WHERE {  graph ?g {?s <$PREDICATE> ?o}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's_\(.*\)‾\(.*\)‾\(.*\)_'"$ENDPOINT"'‾\1‾\2‾'"$EXTENSION"'‾\3_'|tee /dev/fd/5|wc -l`;
  elif [ -n "${NAMEDGRAPH}" ]; then
   #NAMEDGRAPH IS SET TO A NON-EMPTY-VALUE(==we want only this given graph)
  # echo 2;
-  NEW=`send_sparql_select $ENDPOINT "SELECT ?s ?o WHERE {  graph <$NAMEDGRAPH> {?s <$PREDICATE> ?o}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's_\(.*\)‾\( .*\)_'"$ENDPOINT"'‾'"$NAMEDGRAPH"'‾\1‾'"$EXTENSION"'‾\2_'|tee -a /dev/fd/5 |wc -l`;
+  NEW=`send_sparql_select "SELECT ?s ?o WHERE {  graph <$NAMEDGRAPH> {?s <$PREDICATE> ?o}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's_\(.*\)‾\( .*\)_'"$ENDPOINT"'‾'"$NAMEDGRAPH"'‾\1‾'"$EXTENSION"'‾\2_'|tee -a /dev/fd/5 |wc -l`;
  else
   #NAMEDGRAPH IS SET TO EMPTY (==we want only the default graph)
  # echo 3;
-  NEW=`send_sparql_select $ENDPOINT "SELECT ?s ?o WHERE { {?s <$PREDICATE> ?o}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's_\(.*\)‾\(.*\)_'"$ENDPOINT"'‾‾\1‾'"$EXTENSION"'‾\2_'|tee /dev/fd/5 |wc -l`;
+  NEW=`send_sparql_select "SELECT ?s ?o WHERE { {?s <$PREDICATE> ?o}} LIMIT $LIMIT OFFSET $OFFSET" |sed -e 's_\(.*\)‾\(.*\)_'"$ENDPOINT"'‾‾\1‾'"$EXTENSION"'‾\2_'|tee /dev/fd/5 |wc -l`;
  fi
  
  OFFSET=$(( OFFSET + NEW ));

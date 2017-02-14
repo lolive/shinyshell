@@ -6,7 +6,7 @@ $ ngcount ENDPOINT _NAMEDGRAPH : ""
 
 $ ngdata ENDPOINT _NAMEDGRAPH : " Retrieve the 1000 first triples of the endpoint (resp. of the endpoint/namedgraph) Example: ngdata http://dbpedia.datao.net/sparql http://dbpedia.org/"
 
-$ nglist ENDPOINT_URL : "List the named graphs of an endpoint. Example: nglist http://worldcat.lolive.net/sparql"
+$ nglist ENDPOINT : "List the named graphs of an endpoint. Example: nglist http://worldcat.lolive.net/sparql"
 
 $ retrieve_triples_matching_predicate ENDPOINT PREDICATE EXTENSION _NAMEDGRAPH : ""
 
