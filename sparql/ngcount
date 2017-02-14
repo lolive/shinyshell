@@ -1,0 +1,7 @@
+name_params ENDPOINT _NAMEDGRAPH
+if [ -z ${NAMEDGRAPH+x} ]; then
+ local SPARQL_QUERY='select count(*) where { ?s ?p ?o } limit 1000'
+else
+ local SPARQL_QUERY='select count(*) where { GRAPH <'${NAMEDGRAPH}'> {?s ?p ?o} } limit 1000'
+fi
+send_sparql_select
