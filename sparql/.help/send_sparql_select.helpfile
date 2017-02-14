@@ -1,0 +1,4 @@
+Sends the sparql query to the endpoint and format the results.
+
+Sends the sparql query to the endpoint and format the results.
+(Usually an internal function.)

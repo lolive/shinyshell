@@ -4,6 +4,7 @@ local LIMIT=10000;
 local NEW=1;
 local OFFSET=0;
 while [[ $NEW -gt 0 ]]; do 
+ echo $NEW >&2
  if [ -z "${NAMEDGRAPH+x}" ]; then
   #NAMEDGRAPH IS NOT SET (==we want all graphs except default)
  # echo 1;

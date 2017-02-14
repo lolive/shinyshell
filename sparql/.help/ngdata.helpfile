@@ -1,0 +1,8 @@
+Retrieve the 1000 first triples of the endpoint (resp. of the
+endpoint/namedgraph)
+
+Retrieve the 1000 first triples of the endpoint (resp. of the
+endpoint/namedgraph)
+
+Example:
+ngdata http://dbpedia.datao.net/sparql http://dbpedia.org/

@@ -1,0 +1,5 @@
+List the named graphs of an endpoint.
+
+List the named graphs of an endpoint.
+Example:
+nglist http://worldcat.lolive.net/sparql
