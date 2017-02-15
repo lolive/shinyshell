@@ -8,7 +8,7 @@ git clone --recursive https://github.com/lolive/shinyshell $HOME/.bashrc.dir
 
 echo "source $HOME/.bashrc.dir/.bashrc" >> $HOME/.bashrc
 
-source $HOME/.bashrc
+source $HOME/.bashrc.dir/.bashrc
 
 Packages:
 
