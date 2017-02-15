@@ -6,9 +6,9 @@ Install these scrits with the following commands:
 
 git clone --recursive https://github.com/lolive/shinyshell $HOME/.bashrc.dir
 
-echo "source $HOME/.bashrc.dir" >> $HOME/.bashrc
+echo "source $HOME/.bashrc.dir/.bashrc" >> $HOME/.bashrc
 
-source $HOME/.bashrc.dir/.bashrc
+source $HOME/.bashrc
 
 Packages:
 
