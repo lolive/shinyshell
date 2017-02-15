@@ -22,3 +22,9 @@
 [submodule ".raw"]
 	path = .raw
 	url = https://github.com/lolive/shinyshell-raw
+[submodule "sparql"]
+	path = sparql
+	url = https://lolive@github.com/lolive/shinyshell-sparql.git
+[submodule "sparql_to_es"]
+	path = sparql_to_es
+	url = https://lolive@github.com/lolive/shinyshell-sparql_to_es.git
