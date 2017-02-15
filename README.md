@@ -1,5 +1,15 @@
 This project provides a few Bash commands that you might find useful.
 
+Install:
+
+Install these scrits with the following commands:
+
+git clone --recursive https://github.com/lolive/shinyshell $HOME/.bashrc.dir
+echo "source $HOME/.bashrc.dir" >> $HOME/.bashrc
+source $HOME/.bashrc
+
+Packages:
+
 We rely upon a bunch of Bash packages also available on Github. (see below).
 
 *** base: 
