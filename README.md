@@ -2,7 +2,7 @@ This project provides a few Bash commands that you might find useful.
 
 # Install:
 
-Install these scrits with the following commands:
+Install Shinyshell and all its packages with the following commands:
 
 git clone --recursive https://github.com/lolive/shinyshell $HOME/.bashrc.dir
 
@@ -10,7 +10,7 @@ echo "source $HOME/.bashrc.dir/.bashrc" >> $HOME/.bashrc
 
 source $HOME/.bashrc.dir/.bashrc
 
-# Packages:
+# Available packages:
 
 A bunch of Shinyshell packages are available on Github.
 
@@ -50,4 +50,18 @@ A bunch of Shinyshell packages are available on Github.
 ## [web](https://raw.githubusercontent.com/lolive/shinyshell-web/master): 
 
 ( [urldecode](https://raw.githubusercontent.com/lolive/shinyshell-web/master/.help/urldecode.helpfile) [urlencode](https://raw.githubusercontent.com/lolive/shinyshell-web/master/.help/urlencode.helpfile)  )
+
+# Do your own Shinyshell packages
+## Clone this repo
+## Add your own package
+
+To Be Documented
+
+## Edit functions in this package
+
+To Be Documented
+
+## Upload to Github
+
+To Be Documented
 
