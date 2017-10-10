@@ -10,6 +10,9 @@
 [submodule "github"]
 	path = github
 	url = https://lolive@github.com/lolive/shinyshell-github.git
+[submodule "twitter"]
+	path = twitter
+	url = https://lolive@github.com/lolive/shinyshell-twitter.git
 [submodule "help"]
 	path = help
 	url = https://lolive@github.com/lolive/shinyshell-help.git
