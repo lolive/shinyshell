@@ -38,6 +38,9 @@ A bunch of Shinyshell packages are available on Github.
 *** sparql_to_es: 
 ( [aggregatedata](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/aggregatedata.helpfile) [bulk](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/bulk.helpfile) [install_es_for_sparql_indexing](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/install_es_for_sparql_indexing.helpfile) [monitor_loads](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/monitor_loads.helpfile) [retrieve_alive_endpoints_metadata](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/retrieve_alive_endpoints_metadata.helpfile) [retrieve_endpoint_labels](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/retrieve_endpoint_labels.helpfile) [retrieve_endpoint_longlats](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/retrieve_endpoint_longlats.helpfile) [retrieve_endpoint_metadata](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/retrieve_endpoint_metadata.helpfile) [retrieve_endpoint_sameas](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/retrieve_endpoint_sameas.helpfile) [retrieve_endpoint_types](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/retrieve_endpoint_types.helpfile) [usv2esUpsert](https://raw.githubusercontent.com/lolive/shinyshell-sparql_to_es/master/.help/usv2esUpsert.helpfile)  )
 
+*** twitter: 
+(  )
+
 *** web: 
 ( [urldecode](https://raw.githubusercontent.com/lolive/shinyshell-web/master/.help/urldecode.helpfile) [urlencode](https://raw.githubusercontent.com/lolive/shinyshell-web/master/.help/urlencode.helpfile)  )
 
