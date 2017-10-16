@@ -4,11 +4,11 @@ This project provides a few Bash commands that you might find useful.
 
 Install Shinyshell and all its packages with the following commands:
 
+```
 git clone --recursive https://github.com/lolive/shinyshell $HOME/.bashrc.dir
-
 echo "source $HOME/.bashrc.dir/.bashrc" >> $HOME/.bashrc
-
 source $HOME/.bashrc.dir/.bashrc
+```
 
 # Available packages:
 
