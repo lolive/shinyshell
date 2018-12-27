@@ -30,7 +30,7 @@ A bunch of Shinyshell packages are available on Github.
 ( [edit_help](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/edit_help.helpfile) [edit_shinyshell_readme](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/edit_shinyshell_readme.helpfile) [regenerate_shinyshell_readme](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/regenerate_shinyshell_readme.helpfile) [view_help](https://raw.githubusercontent.com/lolive/shinyshell-help/master/.help/view_help.helpfile)  )
 
 *** json: 
-( [jsoninnerpaths](https://raw.githubusercontent.com/lolive/shinyshell-json/master/.help/jsoninnerpaths.helpfile) [jsonpaths](https://raw.githubusercontent.com/lolive/shinyshell-json/master/.help/jsonpaths.helpfile)  )
+( [allpaths](https://raw.githubusercontent.com/lolive/shinyshell-json/master/.help/allpaths.helpfile) [innerpaths](https://raw.githubusercontent.com/lolive/shinyshell-json/master/.help/innerpaths.helpfile) [uniqpaths](https://raw.githubusercontent.com/lolive/shinyshell-json/master/.help/uniqpaths.helpfile)  )
 
 *** sed: 
 ( [search_and_replace](https://raw.githubusercontent.com/lolive/shinyshell-sed/master/.help/search_and_replace.helpfile) [str_delete](https://raw.githubusercontent.com/lolive/shinyshell-sed/master/.help/str_delete.helpfile)  )
