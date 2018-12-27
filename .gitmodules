@@ -31,3 +31,6 @@
 [submodule "sparql_to_es"]
 	path = sparql_to_es
 	url = https://lolive@github.com/lolive/shinyshell-sparql_to_es.git
+[submodule "json"]
+	path = json
+	url = https://lolive@github.com/lolive/shinyshell-json.git
